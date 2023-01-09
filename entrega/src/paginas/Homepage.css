@@ -1,0 +1,17 @@
+*{
+    background-color: black;
+
+}
+
+.flex-parent{
+    align-content: center;
+    justify-content: space-around;
+    padding:10em;
+}
+
+
+#imagem{
+
+    width:20em;
+    height: 30em;
+}
