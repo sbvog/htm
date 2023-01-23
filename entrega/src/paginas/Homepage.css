@@ -1,17 +1,38 @@
 *{
     background-color: black;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
 
 }
 
-.flex-parent{
+.imagem{
+padding:2em;
+}
+#flex-parent{
+    padding:3em 10em 10em 10em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     align-content: center;
-    justify-content: space-around;
-    padding:10em;
+    flex-direction: row;
+
 }
 
 
+#Passado, #Presente, #Futuro{
+    width: 100%;
+}
+.flexy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
 #imagem{
 
-    width:20em;
+    width:15em;
     height: 30em;
+}
+#titulo{
 }

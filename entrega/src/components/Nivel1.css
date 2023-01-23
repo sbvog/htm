@@ -1,0 +1,38 @@
+.canva{
+ max-width:88vh;
+    margin:auto;
+padding-top:2em;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.hoverli:hover{
+    color:white;
+}
+.choices{
+    color: white;
+    padding:5em;
+}
+
+h3{
+    font-size: larger;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-shadow: white;
+    font-family: "Helvetica Neue",sans-serif;
+}
+#escolha1{
+    border-color:white;
+    color:white;
+    background-color: transparent;
+    font-family: Roboto,sans-serif;
+}
+#escolha2{
+    border-color:white;
+    color:white;
+    background-color: transparent;
+    font-family: Roboto,sans-serif;
+}
+.choices{
+    flex-direction: row;
+}
